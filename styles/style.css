@@ -16,7 +16,7 @@ hr{
 
 /* container area */
 .container{
-    width: 1280px;
+    width: 100%;
     height: 650px;
     background-color: #2D25A0;
     position: relative;
