@@ -93,6 +93,12 @@ nav{
 
 }
 
+/* Banner thumbnail transform part */
+.banner-thumbnail:hover{
+    transform: scale(1.2);
+    transition: transform 2s ease-in-out;
+}
+
 .banner-thumbnail img{
     width: 100%;
 }
