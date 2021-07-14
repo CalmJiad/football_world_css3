@@ -166,6 +166,12 @@ footer p{
 
 .social-icon i{
     padding: 0 15px;
-    font-size: 28px;
+    font-size: 38px;
     margin: 0 15px;
+    color: #E02C6D;
+}
+
+.social-icon i:hover{
+    transform: scale(1.2) rotate(360deg);
+    transition: transform 1s ease-in-out;
 }
