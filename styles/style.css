@@ -1,11 +1,17 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 /* global styles */
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+hr{
+    border: 1px solid #ec8eb1;
+    margin-bottom: 27px;
 }
 
 /* container area */
@@ -68,7 +74,6 @@ nav{
     padding: 0px 8px;
 }
 
-
 /* banner area */
 .banner-title{
     width: 450px;
@@ -92,7 +97,6 @@ nav{
     right: 100px;
     left: 700px;
     top: 153px;
-
 }
 
 .banner-thumbnail img{
@@ -106,8 +110,6 @@ nav{
 }
 
 /* Players Section */
-
-
 .players{
     width: 100%;
     margin-bottom: 100px;
@@ -136,11 +138,25 @@ nav{
     padding: 0px 20px;
 }
 
+/* Extra Part */
+.video-part h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+    font-weight: 300;
+}
+
+.video-part{
+    margin-bottom: 40px;
+}
+
 /* footer area */
 .footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 40px 0;
 }
 
 .footer img{
