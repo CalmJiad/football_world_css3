@@ -44,7 +44,13 @@ nav{
     margin-right: 130px;
 }
 
-.btn-login, .btn-watch{
+.btn-login{
+    background-color: #E02C6D;
+    border: none;
+    padding: 8px 6px;
+}
+
+ .btn-watch{
     background-color: #E02C6D;
     padding: 5px 15px;
     border: none;
@@ -54,6 +60,7 @@ nav{
     text-decoration: none;
     color: #ffffff;
     font-size: 14px;
+    padding: 0px 4px;
 }
 
 .logout{
